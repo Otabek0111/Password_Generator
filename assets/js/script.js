@@ -18,7 +18,7 @@ function generatePassword() {
       alert("Your password will be " + numberOfCharacters + " characters long.");
       
     }
-
+    
   hasLowercase = confirm("Do you want lowercase characters?");
     if (hasLowercase) {
       var turnToLowercase = alert("Your password will have lowercase characters.");
