@@ -10,7 +10,7 @@ function generatePassword() {
   // get input and validate
   var numberOfCharacters = prompt("How many characters do you want in your password? Choose between 8-128 characters.");
     if (numberOfCharacters < 8 || numberOfCharacters > 128) {
-      return "Please choose a valid number of characters.";
+      return "Please enter a valid number of characters.";
     } else if (isNaN(numberOfCharacters)) {
       numberOfCharacters = prompt("Please enter a valid number.");
     }
@@ -19,7 +19,7 @@ function generatePassword() {
       
     }
     
-  hasLowercase = confirm("Do you want lowercase characters?");
+  var hasLowercase = confirm("Do you want lowercase characters?");
     if (hasLowercase) {
       var turnToLowercase = alert("Your password will have lowercase characters.");
     }
@@ -27,7 +27,7 @@ function generatePassword() {
       alert("Your password will NOT have lowercase characters.");
     }
 
-    hasUppercase = confirm("Do you want uppercase characters?");
+  var hasUppercase = confirm("Do you want uppercase characters?");
     if (hasUppercase) {
       alert("Your password will have uppercase characters.");
     }
@@ -35,7 +35,7 @@ function generatePassword() {
       alert("Your password will NOT have uppercase characters.");
     }
 
-  hasNumbers = confirm("Do you want to use numbers?");
+  var hasNumbers = confirm("Do you want to use numbers?");
     if (hasNumbers) {
       alert("Your password will have numbers.");
     }
@@ -43,7 +43,7 @@ function generatePassword() {
       alert("Your password will NOT have numbers.");
     }
 
-    hasSpecial = confirm("Do you want special characters?");
+  var hasSpecial = confirm("Do you want special characters?");
     if (hasSpecial) {
       alert("Your password will have special characters.");
     }
@@ -55,7 +55,7 @@ function generatePassword() {
       return "Please select at least one character type.";
     };
 
-  // group selected characters
+  // each group of characters gets added to all the possible characters to make the random password from
     if (hasLowercase) { 
       possibleCharacters = possibleCharacters.concat(lowercaseCharacters);
     }
@@ -69,30 +69,28 @@ function generatePassword() {
       possibleCharacters = possibleCharacters.concat(specialCharacters);
     }
 
-  // pick random cards out of new pool for length of password
-  let finalPassword = ""
+  // randomly picks a object from the possible characters and makes a random password from the needed number of characters
+  var finalPassword = ""
     for (let i = 0; i < numberOfCharacters; i++) {
-     
-      let rng =[Math.floor(Math.random() * possibleCharacters.length)];
-      // or finalPassword += possibleCharacters[rng];
+      var rng =[Math.floor(Math.random() * possibleCharacters.length)];
+      // this is used to concatenate a randomized character from the list of possible characters to the current final password string.
       finalPassword = finalPassword + possibleCharacters[rng];
-      console.log("string the random number is " + rng + " " + possibleCharacters[rng] );
-      console 
+    
     }
     return finalPassword;
   };
 
-// Get references to the #generate element
+// selects the HTML element with the ID "generate" and assigns it to a variable called "generateBtn." This allows you to manipulate that specific HTML element using JavaScript.
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
+//  It starts by calling the "generatePassword" function to create a new password. It then selects the HTML element with the ID of "password" and assigns the newly generated password as its value.
   function writePassword() {
     var password = generatePassword();
     var passwordText = document.querySelector("#password");
     passwordText.value = password;
   }
 
-// Add event listener to generate button
+// Add event listener to generate button and this allows us to start generating the password.
 generateBtn.addEventListener("click", writePassword);
 
 
