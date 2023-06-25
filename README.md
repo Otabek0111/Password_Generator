@@ -29,51 +29,51 @@
 
 ### Image 1 
 
-![image of application text written: password generator, generate a password, your secure password, and a red generate password button ](../Password_Generator/assets/images/Screenshot-1.png)
+![image of application text written: password generator, generate a password, your secure password, and a red generate password button ](assets/images/Screenshot-1.png)
 
 ### Image 2 
 
-![image of application text written: password generator, generate a password, your secure password, and a red generate password button. Pop up box says how much char a selection cancel and OK asking how much characters between 8-128 ](../Password_Generator/assets/images/Screenshot-2.png)
+![image of application text written: password generator, generate a password, your secure password, and a red generate password button. Pop up box says how much char a selection cancel and OK asking how much characters between 8-128 ](assets/images/Screenshot-2.png)
 
 ### Image 3 
 
-![image of the pop up this page says: Your password will be 10 characters long. ](../Password_Generator/assets/images/Screenshot-3.png)
+![image of the pop up this page says: Your password will be 10 characters long. ](assets/images/Screenshot-3.png)
 
 ### Image 4
 
-![image of the pop up this page says: Do you want lowercase characters? ](../Password_Generator/assets/images/Screenshot-4.png)
+![image of the pop up this page says: Do you want lowercase characters? ](assets/images/Screenshot-4.png)
 
 ### Image 5 
 
-![image of application text written: Your password will have lowercase characters. ](../Password_Generator/assets/images/Screenshot-5.png)
+![image of application text written: Your password will have lowercase characters. ](assets/images/Screenshot-5.png)
 
 ### Image 6 
 
-![image of application text written: Do you want uppercase characters? ](../Password_Generator/assets/images/Screenshot-6.png)
+![image of application text written: Do you want uppercase characters? ](assets/images/Screenshot-6.png)
  
 ### Image 7
 
-![image of application text written: Your password will have uppercase characters. ](../Password_Generator/assets/images/Screenshot-7.png)
+![image of application text written: Your password will have uppercase characters. ](assets/images/Screenshot-7.png)
 
 ### Image 8
 
-![image of application text written: Do you want to use numbers? ](../Password_Generator/assets/images/Screenshot-8.png)
+![image of application text written: Do you want to use numbers? ](assets/images/Screenshot-8.png)
 
 ### Image 9
 
-![image of application text written: Your password will have numbers. ](../Password_Generator/assets/images/Screenshot-9.png)
+![image of application text written: Your password will have numbers. ](assets/images/Screenshot-9.png)
 
 ### Image 10
 
-![image of application text written: Do you want special characters? ](../Password_Generator/assets/images/Screenshot-10.png)
+![image of application text written: Do you want special characters? ](assets/images/Screenshot-10.png)
 
 ### Image 11
 
-![image of application text written: Your password will have special characters. ](../Password_Generator/assets/images/Screenshot-11.png)
+![image of application text written: Your password will have special characters. ](assets/images/Screenshot-11.png)
 
 ### Image 12 
 
-![image of application text written: password generator, generate a password, random password in the box, and a red generate password button. ](../Password_Generator/assets/images/Screenshot-12.png)
+![image of application text written: password generator, generate a password, random password in the box, and a red generate password button. ](assets/images/Screenshot-12.png)
 
 
 # Technologies Used 

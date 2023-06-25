@@ -8,17 +8,17 @@ function generatePassword() {
   var possibleCharacters = [];
 
   // get input and validate
-  var numberOfCharacters = prompt("How many characters do you want in your password? Choose between 8-128 characters.");
-    if (numberOfCharacters < 8 || numberOfCharacters > 128) {
-      return "Please enter a valid number of characters.";
-    } else if (isNaN(numberOfCharacters)) {
-      numberOfCharacters = prompt("Please enter a valid number.");
+    var numberOfCharacters = prompt("How many characters do you want in your password? Choose between 8-128 characters.");
+      if (numberOfCharacters < 8 || numberOfCharacters > 128) {
+        return "Please enter a valid number of characters.";
+      } else if (isNaN(numberOfCharacters)) {
+        numberOfCharacters = prompt("Please enter a valid number.");
+      }
+      else {
+        alert("Your password will be " + numberOfCharacters + " characters long.");
+        
     }
-    else {
-      alert("Your password will be " + numberOfCharacters + " characters long.");
-      
-    }
-    
+  //Overall, this code is a simple way to gather user input and provide feedback based on their response.
   var hasLowercase = confirm("Do you want lowercase characters?");
     if (hasLowercase) {
       var turnToLowercase = alert("Your password will have lowercase characters.");
